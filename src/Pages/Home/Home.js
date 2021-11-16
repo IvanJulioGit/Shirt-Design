@@ -7,7 +7,6 @@ function Home() {
   return (
     <div className={styles.container}>
       <Aside />
-
       <ImgView />
       <Text />
     </div>

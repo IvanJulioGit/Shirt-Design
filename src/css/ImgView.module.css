@@ -3,6 +3,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 .view {
@@ -39,6 +40,28 @@
     min-width: 40%;
     height: 40%;
   }
+}
+.btn-download {
+  position: absolute;
+  border: 1px solid #E94F37;
+  padding: 1%;
+  background-color: #F6F7EB;
+  color: #E94F37;
+  bottom: 2%;
+  right: 1%;
+  cursor: pointer;
+  text-decoration: none;
+}
+.btn-download:hover {
+  background-color: #FFFC31;
+  border-color: #393E41;
+  color: #393E41;
+}
+
+.btn-download[isdisable=disable] {
+  background-color: gray;
+  border-color: rgba(102, 102, 102, 0.6);
+  color: rgba(102, 102, 102, 0.6);
 }
 
 /*# sourceMappingURL=ImgView.module.css.map */
