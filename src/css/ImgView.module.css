@@ -1,0 +1,44 @@
+.view-img-content {
+  background-color: #5C415D;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.view {
+  height: 60%;
+  width: 100%;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.view span {
+  word-break: break-all;
+  width: 27%;
+  height: 60%;
+  overflow: hidden;
+  background-position: left;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  min-width: 195px;
+}
+
+.bgImg {
+  width: 500%;
+  height: 100%;
+}
+
+@media (max-width: 850px) {
+  .view span {
+    min-width: 40%;
+    height: 40%;
+  }
+}
+
+/*# sourceMappingURL=ImgView.module.css.map */

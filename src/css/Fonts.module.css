@@ -1,0 +1,56 @@
+/* make scrollbar transparent */
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+.fontType {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: flex-start;
+  grid-column: 1/4;
+  padding: 1%;
+  grid-row: 8/8;
+  position: relative;
+  justify-content: space-around;
+}
+
+.dropdown {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 60%;
+  height: 100%;
+  background-color: #fff;
+  justify-self: center;
+  position: relative;
+}
+
+.dropdown-content {
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+.dropdown-content ul {
+  list-style: none;
+  overflow-y: scroll;
+  height: 20px;
+  border: none;
+  transition: 0.4s;
+}
+.dropdown-content ul:hover {
+  height: 60px;
+}
+.dropdown-content ul li {
+  border: 1px solid rgba(0, 0, 0, 0.199);
+  border-bottom: none;
+  background-color: #fff;
+  text-align: center;
+  cursor: pointer;
+}
+.dropdown-content ul li:hover {
+  background-color: #5C415D;
+}
+
+/*# sourceMappingURL=Fonts.module.css.map */

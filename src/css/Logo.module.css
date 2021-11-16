@@ -1,0 +1,21 @@
+.logo-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #5C415D;
+  z-index: 4;
+  width: 99%;
+  margin: 0;
+}
+.logo-content div {
+  width: 90%;
+  height: 90%;
+}
+
+.arrows {
+  width: 20%;
+  height: 20%;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=Logo.module.css.map */
