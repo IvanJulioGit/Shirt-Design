@@ -1,0 +1,65 @@
+@use '../../scss/config';
+.view-img-content{
+    background-color: config.$englishViolet;
+    @include config.align-center();
+    position: relative;
+}
+
+.view{
+    height: 60%;
+    width: 100%;
+    
+    @include config.background-align();
+    @include config.align-center();
+    position: relative;
+    span{
+        word-break: break-all;
+        width: 27%;
+        height: 60%;
+        overflow: hidden;
+        background-position: left;
+        @include config.background-align();
+        display: flex;
+        min-width: 195px;
+     
+        
+    }
+}
+.bgImg{
+    width: 500%;
+    height: 100%;
+}
+
+
+
+@media (max-width:850px) {
+    .view {
+      span{
+          min-width: 40%;
+          height: 40%;
+      }
+    }
+  }
+
+  .btn-download{
+      position: absolute;
+      border: 1px solid config.$cinnabar;
+      padding: 1%;
+      background-color: config.$ivory;
+      color: config.$cinnabar;
+      bottom: 2%;
+      right: 1%;
+      cursor: pointer;
+      text-decoration: none;
+      &:hover{
+          background-color: config.$maximumYellow;
+          border-color : config.$onyx;
+          color :  config.$onyx;
+      }
+  }
+
+  .btn-download[isdisable=disable]{
+    background-color: rgb(128, 128, 128);
+    border-color: rgba(102, 102, 102, 0.6);
+    color: rgba(102, 102, 102, 0.6);
+  }

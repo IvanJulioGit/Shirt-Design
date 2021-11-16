@@ -1,6 +1,6 @@
 import {useContext} from 'react';
 import { storage } from "../../GlobalContext/GlobalContext";
-import styles from '../../css/Colors.module.css';
+import styles from './Colors.module.scss';
 const color = ["red", "blue", "yellow", "green", '#FFFC31', '#5C415D', '#F6F7EB', '#E94F37', '#393E41'];
 function Colors() {
     const { setText } = useContext(storage);

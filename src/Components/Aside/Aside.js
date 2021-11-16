@@ -1,7 +1,7 @@
 import imgs from "../../assets/imgs/imgs";
 import Card from "../Card/Card";
 import Logo from "../Logo/Logo";
-import styles from "../../css/Aside.module.css";
+import styles from "./Aside.module.scss";
 import { useContext } from "react/cjs/react.development";
 import { storage } from "../../GlobalContext/GlobalContext";
 function Aside() {

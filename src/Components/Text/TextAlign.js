@@ -2,7 +2,7 @@ import { useContext } from "react";
 import { storage } from "../../GlobalContext/GlobalContext";
 import {AiOutlineAlignLeft,AiOutlineAlignCenter,AiOutlineAlignRight} from "react-icons/ai";
 import { BsFilterLeft, BsFilter, BsFilterRight } from "react-icons/bs";
-import styles from '../../css/Text.module.css';
+import styles from './Text.module.scss';
 
 function TextAlign() {
   const { setText } = useContext(storage);

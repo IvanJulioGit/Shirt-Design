@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { storage } from "../../GlobalContext/GlobalContext";
-import styles from "../../css/Fonts.module.css";
+import styles from "./Fonts.module.scss";
 function Fonts() {
   const { setText } = useContext(storage);
   const handleFont = ({ target }) => {

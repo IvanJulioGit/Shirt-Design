@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import styles from "../../css/Logo.module.css";
+import styles from "./Logo.module.scss";
 import { storage } from "../../GlobalContext/GlobalContext";
 import { FcPrevious, FcNext } from "react-icons/fc";
 import logos from "../../assets/logos/logos";

@@ -2,7 +2,7 @@ import { useContext } from "react";
 import { storage } from "../../GlobalContext/GlobalContext";
 import Colors from "../Colors/Colors";
 import TextAlign from "./TextAlign";
-import styles from "../../css/Text.module.css";
+import styles from "./Text.module.scss";
 import Fonts from "../Fonts/Fonts";
 
 function Text() {

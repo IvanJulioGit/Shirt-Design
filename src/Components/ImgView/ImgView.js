@@ -1,5 +1,5 @@
 import { useContext, useEffect, useState } from "react";
-import styles from "../../css/ImgView.module.css";
+import styles from "./ImgView.module.scss";
 import { storage } from "../../GlobalContext/GlobalContext";
 import TextView from "./TextView";
 import html2canvas from "html2canvas";
