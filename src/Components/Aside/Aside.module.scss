@@ -1,0 +1,36 @@
+@use "../../scss/config";
+aside {
+  background-color: config.$onyx;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  .shirts{
+    height: 500px;
+    width: 100%;
+    overflow-y: scroll;
+    div{
+      flex-grow: 1;
+      height: 200px;
+    }
+  }
+  div {
+    width: 100%;
+    height: 20%;
+    margin: 2%;
+    @include config.background-align();
+  }
+}
+
+.logoSize {
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  input {
+    margin: 1% 6%;
+    width: 40%;
+    height: 60%;
+  }
+
+ 
+}
